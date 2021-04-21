@@ -6,6 +6,7 @@
 	font-family: montserrat, sans-serif;
 	font-style: normal;
 	font-weight: 400;
+	width: 100%;
 }
 #mainwrapper header #logo {
 	/* Company Logo text */
@@ -141,10 +142,12 @@ nav ul li a {
 }
 #footerbar {
 	/* Footer bar at the bottom of the page */
-	height: 18px;
+	height: 30px;
 	clear: both;
 	background-color: rgba(208,207,207,1.00);
 	width: 100%;
+	text-align: center;
+	color: #ffffff;
 }
 footer {
 	/* Container for footer artices */
