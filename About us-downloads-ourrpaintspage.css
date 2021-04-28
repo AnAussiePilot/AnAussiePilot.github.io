@@ -180,11 +180,12 @@ header {
 	background-color: grey;
 }
 
-.btn--download {
-    border-radius: 7px;
+.Button {
+    border-radius: 5px;
     box-shadow: none;
 	background-color: #DCDCDC;
     color: rgba(255,255,255,1.00);
+	border-color: grey;
     cursor: pointer;
     padding: 10px 50px;
 	text-align: center;
@@ -197,8 +198,11 @@ header {
 	top: -48px;
 	text-transform: uppercase;
 	position: relative;
-
-}
+  }
+  .Button:hover {
+	  background-color:grey;
+	  color: white;
+  }
 
 /* footer */
 #mainWrapper footer {
