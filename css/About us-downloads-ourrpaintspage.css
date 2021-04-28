@@ -40,14 +40,14 @@ header {
 	padding-bottom: 10px;
 	background-color: #BE0000;
 	color: rgba(255,255,255,1.00);
-	padding-right: 66px;
+	padding-right: 25px;
 }
 
 #headerLinks a {
 	text-decoration: none;
 	color: rgba(255,255,255,1.00);
 	padding-left: 66px;
-	padding-right: 66px;
+	padding-right: 25px;
 	font-size: 14px;
 	transition: all 0.3s linear;
 	text-align: right;
