@@ -40,6 +40,7 @@ header {
 	padding-bottom: 10px;
 	background-color: #BE0000;
 	color: rgba(255,255,255,1.00);
+	padding-right: 66px;
 }
 
 #headerLinks a {
