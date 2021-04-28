@@ -32,30 +32,30 @@ header {
 	color: rgba(255,255,255,1.00);
 	background-color: #BE0000;
 }
-/* div for Links in header */
 #headerLinks {
 	float: left;
 	width: calc( 100% - 139px );
-	text-align: center;
+	text-align: right;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background-color: #BE0000;
 	color: rgba(255,255,255,1.00);
 }
-/* Links in header */
+
 #headerLinks a {
 	text-decoration: none;
 	color: rgba(255,255,255,1.00);
 	padding-left: 66px;
 	font-size: 14px;
 	transition: all 0.3s linear;
+	text-align: right;
 }
 #headerLinks a:hover {
 	color: #004b85;
 	cursor: pointer;
 	letter-spacing: 0.5px;
 }
-/* Offer text banner*/
+
 #offer {
 	font-family: 'Montserrat', sans-serif;
 	clear: both;
@@ -65,7 +65,7 @@ header {
 	padding-top: 57px;
 	padding-bottom: 57px;
 }
-/* Main content of the site */
+
 #content {
 	clear: both;
 	overflow: auto;
