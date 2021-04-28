@@ -11,7 +11,7 @@
 	padding-bottom: 0px;
 }
 #mainwrapper header {
-	/*Header */
+
 	background-color: #be0000;
 	overflow: auto;
 	font-family: montserrat, sans-serif;
@@ -20,7 +20,7 @@
 	width: 100%;
 }
 #mainwrapper header #logo {
-	/* Company Logo text */
+
 	width: 28%;
 	float: left;
 	padding-left: 2%;
@@ -29,7 +29,7 @@
 	color: #ffffff;
 }
 #mainwrapper header nav {
-	/*Nav bar containing links in header */
+
 	text-align: right;
 	padding-top: 12px;
 	padding-bottom: 12px;
@@ -39,28 +39,28 @@
 	color: #ffffff;
 }
 header nav a {
-	/* Links in header */
+
 	padding-right: 2%;
 	color: rgb(148, 148, 148);
 }
 #content #mainContent h1, #content #mainContent h2 {
-	/* Styling for main headings */
+
 	color: rgb(148, 148, 148);
 }
 #content #mainContent h3 {
-	/*Captions ot Taglines */
+
 	font-family: source-sans-pro, sans-serif;
 	font-style: normal;
 	font-weight: 200;
 	color: rgb(148, 148, 148);
 }
 #content #mainContent #bannerImage {
-	/*Container for main banner image */
+
 	width: 100%;
 	background-color: rgba(208,207,207,1.00);
 }
 #content #mainContent p {
-	/* All paragraphs under maincontent */
+
 	color: rgba(146,146,146,1.00);
 	font-family: source-sans-pro, sans-serif;
 	font-style: normal;
@@ -68,7 +68,7 @@ header nav a {
 	text-align: justify;
 }
 #content #mainContent #authorInfo {
-	/* Author info section */
+
 	background-color: rgba(208,207,207,1.00);
 }
 #content #mainContent #authorInfo h2, #content #mainContent #authorInfo p {
@@ -84,7 +84,6 @@ header nav a {
 	padding-right: 2%;
 }
 footer article {
-	/* Footer articles */
 	width: 46%;
 	float: left;
 	padding-left: 2%;
@@ -96,14 +95,12 @@ footer article {
 	color: rgba(146,146,146,1.00);
 }
 footer article h3 {
-	/* Footer article titles */
 	text-align: center;
 	font-family: montserrat, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 }
 #mainContent {
-	/* Container for the blog post in individal blog view */
 	padding-left: 2%;
 	width: 71%;
 	float: left;
@@ -111,7 +108,6 @@ footer article h3 {
 	padding-top: 41px;
 }
 #mainwrapper #content #sidebar {
-	/* Sidebar*/
 	width: 19%;
 	padding-left: 2%;
 	padding-right: 2%;
@@ -121,18 +117,18 @@ footer article h3 {
 	padding-top: 32px;
 }
 #mainwrapper {
-	/* Container of all content */
+
 	width: 80%;
 	overflow: auto;
 	margin-left: 10%;
 }
 #content #sidebar input {
-	/* Search box in sidebar */
+
 	width: 98%;
 	height: 32px;
 }
 #content #sidebar #adimage {
-	/* Container for Image in sidebar */
+
 	width: 100%;
 	background-color: rgba(208,207,207,1.00);
 	margin-top: 46px;
@@ -152,7 +148,7 @@ nav ul li a {
 	text-decoration: none;
 }
 #footerbar {
-	/* Footer bar at the bottom of the page */
+
 	height: 30px;
 	clear: both;
 	background-color: rgba(208,207,207,1.00);
@@ -161,34 +157,34 @@ nav ul li a {
 	color: #ffffff;
 }
 footer {
-	/* Container for footer artices */
+
 	width: 71%;
 	padding-left: 2%;
 	padding-right: 2%;
 }
 .notOnDesktop {
-	/*element to be displayed only in mobile view and tabet view */
+
 	display: none;
 }
 #mainContent #bannerImage img {
-	/* Actual banner image */
+
 	width: 100%;
 }
 #sidebar #adimage img {
-	/* Image in sidebar */
+
 	width: 100%;
 	float: left;
 }
 #mainwrapper header nav a {
-	/* Links in header */
+
 	color: #ffffff;
 	text-decoration: none;
 }
 
-/* Tablet view */
+
 @media screen and (max-width:769px) {
 .notOnDesktop {
-	/* Search box shown only in mobile view and Tablet view */
+
 	display: block;
 	text-align: right;
 	padding-right: 8px;
@@ -200,17 +196,17 @@ footer {
 	height: 28px;
 }
 #mainContent {
-	/* Container for the blog post */
+
 	padding-top: 0px;
 	float: none;
 	width: 96%;
 }
 #sidebar input {
-	/* Search box in sidebar */
+
 	display: none;
 }
 #mainwrapper #content #sidebar {
-	/* Sidebar*/
+
 	float: none;
 	width: 92%;
 	padding-top: 13px;
@@ -220,13 +216,13 @@ footer {
 	padding-bottom: 13px;
 }
 #content #sidebar #adimage {
-	/* Image in sidebar */
+
 	width: 60%;
 	margin-top: 0px;
 	float: left;
 }
 #content #sidebar nav {
-	/* Navigation links in sidebar */
+
 	width: 36%;
 	float: left;
 	padding-left: 4%;
@@ -235,40 +231,40 @@ footer {
 	margin-top: 0px;
 }
 footer {
-	/* Footer region */
+
 	width: 96%;
 	padding-left: 2%;
 	padding-right: 2%;
 }
 #content footer article {
-	/*Each footer article */
+
 	width: 46%;
 }
 #mainwrapper header {
-	/* Header */
+
 	width: 100%;
 }
 }
 
-/* Mobile view */
+
 @media screen and (max-width:480px) {
 #mainwrapper header #logo {
-	/* Company Logo text in header */
+
 	width: 96%;
 	margin-left: 2%;
 }
 #mainwrapper header nav {
-	/*navigation links in header */
+
 	text-align: center;
 	background-color: rgba(255,255,255,1.00);
 	width: 98%;
 }
 #content #sidebar #adimage {
-	/* Container for image in sidebar */
+
 	width: 100%;
 }
 #content #sidebar nav {
-	/* Navigation bar for links in sidebar */
+
 	width: 96%;
 	padding-top: 7px;
 }
@@ -278,11 +274,11 @@ footer {
 	text-align: center;
 }
 #mainwrapper #content #sidebar {
-	/* sidebar */
+
 	padding-bottom: 0px;
 }
 #content .notOnDesktop {
-	/* Search box shown only in mobile and tablet view */
+
 	width: 100%;
 	text-align: center;
 	padding-left: 0px;
@@ -293,11 +289,11 @@ footer {
 	text-align: center;
 }
 #content #mainContent h3 {
-	/* Title under maincontent, if any */
+
 	font-size: 14px;
 }
 #content footer article {
-	/* Each foter article */
+
 	width: 96%;
 }
 }
