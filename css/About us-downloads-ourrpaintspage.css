@@ -156,17 +156,54 @@ header {
 
 /* Buy button for products in catalog */
 .productRow .productInfo .buyButton {
-	position: relative;
-	top: -48px;
-	width: 84%;
-	background-color: rgba(208,207,207,1.00);
-	height: 35px;
-	color: rgba(255,255,255,1.00);
-	border-style: none;
+    border-radius: 5px;
+    box-shadow: none;
+	background-color: #DCDCDC;
+    color: rgba(255,255,255,1.00);
+	border-color: grey;
+    cursor: pointer;
+    padding: 10px 50px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
 	font-size: 14px;
-	text-transform: uppercase;
 	margin-top: 8px;
+	height: 35px;
+	width: 84%;
+	top: -48px;
+	text-transform: uppercase;
+	position: relative;
+	transition: ease .4s background-color, ease .4s color .4s
 }
+
+.productRow .productInfo .buyButton:hover {
+	background-color: grey;
+}
+
+.Button {
+    border-radius: 5px;
+    box-shadow: none;
+	background-color: #DCDCDC;
+    color: rgba(255,255,255,1.00);
+	border-color: grey;
+    cursor: pointer;
+    padding: 10px 50px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin-top: 8px;
+	height: 35px;
+	width: 84%;
+	top: -48px;
+	text-transform: uppercase;
+	position: relative;
+  }
+  .Button:hover {
+	  background-color:grey;
+	  color: white;
+  }
+
 /* footer */
 #mainWrapper footer {
 	clear: both;
@@ -313,6 +350,7 @@ footer .footerlinks {
 /* Buy buttons in catalog view */
 .productRow .productInfo .buyButton {
 	font-size: 15px;
+	text-decoration: none;
 }
 /* Container for links in footer */
 #mainWrapper footer .footerlinks {
