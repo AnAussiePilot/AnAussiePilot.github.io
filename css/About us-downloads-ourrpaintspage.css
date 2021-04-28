@@ -35,7 +35,7 @@ header {
 #headerLinks {
 	float: left;
 	width: calc( 100% - 139px );
-	text-align: right;
+	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background-color: #BE0000;
@@ -48,7 +48,7 @@ header {
 	padding-left: 66px;
 	font-size: 14px;
 	transition: all 0.3s linear;
-	text-align: right;
+	text-align: center;
 }
 #headerLinks a:hover {
 	color: #004b85;
