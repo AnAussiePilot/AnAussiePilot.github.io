@@ -27,20 +27,22 @@
 	padding-top: 12px;
 	padding-bottom: 12px;
 	color: #ffffff;
+	padding-left: 3px;
 }
 #mainwrapper header nav {
 
-	text-align: right;
+	text-align: center;
 	padding-top: 12px;
-	padding-bottom: 12px;
-	padding-right: 2%;
-	width: 68%;
-	float: left;
+	padding-bottom: 100px;
+	padding-right: 50%;
+	width: 90%;
+	float: center;
 	color: #ffffff;
+	padding-left: 300px;
 }
 header nav a {
 
-	padding-right: 2%;
+	padding-right: 10%;
 	color: rgb(148, 148, 148);
 }
 #content #mainContent h1, #content #mainContent h2 {
@@ -176,9 +178,10 @@ footer {
 	float: left;
 }
 #mainwrapper header nav a {
-
+	text-align: center;
 	color: #ffffff;
 	text-decoration: none;
+	padding-left: 3px;
 }
 
 
@@ -207,7 +210,7 @@ footer {
 }
 #mainwrapper #content #sidebar {
 
-	float: none;
+	float: center;
 	width: 92%;
 	padding-top: 13px;
 	overflow: auto;
@@ -269,7 +272,7 @@ footer {
 	padding-top: 7px;
 }
 #sidebar nav ul li {
-	display: inline-block;
+	display: center;
 	width: 32%;
 	text-align: center;
 }

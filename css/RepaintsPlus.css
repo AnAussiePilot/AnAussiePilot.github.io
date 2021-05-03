@@ -63,9 +63,11 @@
 	border-bottom: 2px solid #BE0002;
 }
 .secondary_header {
+	text-align: center;
 	width: 100%;
 	padding-top: 50px;
 	padding-bottom: 75px;
+	padding-left: 175px;
 	background-color: #FE5816;
 	clear: left;
 }
