@@ -24,7 +24,6 @@ header {
 }
 /* Logo placeholder*/
 #logo {
-	text-decoration: none;
 	float: left;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -32,10 +31,8 @@ header {
 	text-align: center;
 	color: rgba(255,255,255,1.00);
 	background-color: #BE0000;
-	text-decoration: none;
 }
 #headerLinks {
-	text-decoration: none;
 	float: left;
 	width: calc( 100% - 139px );
 	text-align: center;
@@ -135,7 +132,7 @@ header {
 	float: left;
 	padding-left: 0%;
 	padding-right: 0%;
-	width: 98%;
+	width: 100%;
 	font-size: 15px;
 }
 /* Prices of a products in catalog */
@@ -411,10 +408,8 @@ footer .footerlinks p {
 }
 /* Logo placeholder*/
 #mainWrapper header #logo {
-	text-decoration: none;
 	width: 100%;
 	text-align: center;
-	text-decoration: none;
 }
 /* Links in header */
 header #headerLinks a {
