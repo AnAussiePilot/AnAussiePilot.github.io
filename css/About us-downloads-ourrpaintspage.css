@@ -163,7 +163,7 @@ header {
     color: rgba(255,255,255,1.00);
 	border-color: grey;
     cursor: pointer;
-    padding: 10px 50px;
+    padding: 8px 50px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -419,6 +419,7 @@ header #headerLinks a {
 	padding-right: 15px;
 	padding-left: 0px;
 }
+
 /*Offer - Text Banner */
 #mainWrapper #offer {
 	padding-left: 0px;
