@@ -111,8 +111,9 @@ header {
 	}
 
 	img{
-	max-width:90%;
-	max-height:110%
+	width: 100vw;
+	max-width:40%;
+	height: auto;
 	}
 
 .left_article {
@@ -130,7 +131,7 @@ header {
 	padding-left: 5%;
 	padding-right: 5%;
 	margin-top: 5%;
-	color: #fe5816;
+	color: #ffffff;
 	font-weight: bold;
 	text-transform: uppercase;
 }
