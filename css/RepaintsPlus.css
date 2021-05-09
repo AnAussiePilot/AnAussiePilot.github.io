@@ -67,7 +67,7 @@ header {
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
-	display: inline-block
+	display: inline-block;
 }
 .row.blockDisplay {
 	display: block;
@@ -96,6 +96,7 @@ header {
 .row .columns p {
 	padding-left: 10%;
 	padding-right: 10%;
+	margin: center;
 }
 .container .columns h4 {
 	text-align: center;
@@ -446,7 +447,7 @@ body {
 	width: 100px;
 	border-radius: 200px;
 	height: 100px;
-	margin-left: auto;
+	margin: center;
 }
 .thumbnail_align {
 	text-align: center;
