@@ -11,9 +11,6 @@
 	padding-bottom: 0px;
 }
 /* Global Styles */
-a:hover {
-	color: rgba(255,255,255,1.00);
-}
 /*header*/
 header {
 	font-family: 'Montserrat', sans-serif;
@@ -239,6 +236,10 @@ footer div a {
 /* Product's images in catalog */
 .productInfo div img {
 	width: 35%;
+}
+
+.productInfo div plne{
+	width: 70%
 }
 /*Links in sidebar */
 .sidebar #menubar .menu ul li a {
