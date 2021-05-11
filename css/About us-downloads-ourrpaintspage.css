@@ -160,7 +160,7 @@ header {
     border-radius: 5px;
     box-shadow: none;
 	background-color: #DCDCDC;
-    color: rgba(255,255,255,1.00);
+    color: black;
 	border-color: grey;
     cursor: pointer;
     padding: 8px 50px;
@@ -179,6 +179,7 @@ header {
 
 .productRow .productInfo .buyButton:hover {
 	background-color: grey;
+	color: white
 }
 
 
@@ -186,7 +187,7 @@ header {
     border-radius: 5px;
     box-shadow: none;
 	background-color: #DCDCDC;
-    color: rgba(255,255,255,1.00);
+    color: grey
 	border-color: grey;
     cursor: pointer;
     padding: 10px 50px;

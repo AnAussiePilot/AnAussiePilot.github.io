@@ -237,6 +237,10 @@ footer div a {
 .productInfo div img {
 	width: 35%;
 }
+
+.productInfo div plne{
+	width: 70%
+}
 /*Links in sidebar */
 .sidebar #menubar .menu ul li a {
 	color: #ffffff;
