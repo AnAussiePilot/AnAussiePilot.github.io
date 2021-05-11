@@ -235,11 +235,14 @@ footer div a {
 }
 /* Product's images in catalog */
 .productInfo div img {
-	width: 35%;
+	width: 100vw;
+	max-width: 40%;
+	height: auto;
 }
 
-.productInfo div plne{
-	width: 70%
+.productInfo div u{
+	width: 100%;
+	height: auto;
 }
 /*Links in sidebar */
 .sidebar #menubar .menu ul li a {
