@@ -78,18 +78,18 @@ header {
 	margin-top: 0px;
 }
 .columns {
-	width: 25%;
+	width: 28%;
 	float: left;
 	font-family: "Source Sans Pro";
 	color: #A5A5A5;
 	line-height: 24px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	text-align: match-parent;
+	text-align: center;
 	margin-top: 15px;
 	margin-bottom: 15px;
-	padding-left: 0px;
-	padding-right: 0px;
+	padding-left: 175px;
+	padding-right: 150px;
 	margin-left: 0px;
 	margin-right: 0px;
 }
@@ -100,7 +100,7 @@ header {
 }
 .container .columns h4 {
 	text-align: center;
-	color: #01B2D1;
+	color: #125430;
 }
 .primary_header {
 	width: 100%;
@@ -429,7 +429,7 @@ body {
 }
 .columns {
 	width: 50%;
-	float: left;
+	float: center;
 	padding-left: 0px;
 	padding-top: 0px;
 	padding-right: 0px;
