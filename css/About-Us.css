@@ -235,9 +235,7 @@ footer div a {
 }
 /* Product's images in catalog */
 .productInfo div img {
-	width: 100vw;
-	max-width: 40%;
-	height: auto;
+	max-width: 100%;
 }
 
 .productInfo div u{
