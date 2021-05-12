@@ -182,31 +182,6 @@ header {
 	color: white
 }
 
-
-.Button {
-    border-radius: 5px;
-    box-shadow: none;
-	background-color: #DCDCDC;
-    color: grey
-	border-color: grey;
-    cursor: pointer;
-    padding: 10px 50px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 14px;
-	margin-top: 8px;
-	height: 35px;
-	width: 84%;
-	top: -48px;
-	text-transform: uppercase;
-	position: relative;
-  }
-  .Button:hover {
-	  background-color:grey;
-	  color: white;
-  }
-
 /* footer */
 #mainWrapper footer {
 	clear: both;
